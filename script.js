@@ -1,10 +1,9 @@
 const spinner = document.querySelector(".spinner");
-document.querySelector("body").style.overflow = "hidden";
+document.querySelector("body").style.display = "none";
 window.addEventListener("load", function () {
-  document.querySelector("body").style.overflow = "visible";
+  document.querySelector("body").style.display = "block";
   spinner.style.display = "none";
-});
-const skillsSection = document.querySelector(".skills");
+});const skillsSection = document.querySelector(".skills");
 const skillsSquare = skillsSection.getBoundingClientRect();
 window.addEventListener("scroll", function () {
   // console.log(skillsSquare.top);
