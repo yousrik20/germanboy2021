@@ -1,5 +1,6 @@
 const spinner = document.querySelector(".spinner");
 window.addEventListener("load", function () {
+  document.querySelector("body").style.overflow = "auto";
   spinner.style.display = "none";
 });
 const skillsSection = document.querySelector(".skills");
