@@ -3,7 +3,7 @@
 // window.addEventListener("load", function () {
 //   document.querySelector("body").style.display = "block";
 //   spinner.style.display = "none";
-// });
+// })
 const skillsSection = document.querySelector(".skills");
 const skillsSquare = skillsSection.getBoundingClientRect();
 window.addEventListener("scroll", function () {
