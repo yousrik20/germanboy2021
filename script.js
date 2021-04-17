@@ -1,6 +1,7 @@
 const spinner = document.querySelector(".spinner");
+document.querySelector("body").style.overflow = "hidden";
 window.addEventListener("load", function () {
-  document.querySelector("body").style.overflow = "auto";
+  document.querySelector("body").style.overflow = "visible";
   spinner.style.display = "none";
 });
 const skillsSection = document.querySelector(".skills");
