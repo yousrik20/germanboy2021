@@ -85,7 +85,6 @@ window.addEventListener("scroll", function () {
   }
 });
 /* Testimonials */
-document.querySelector(".carousel").carousel();
 // Slider
 const slider = function () {
   const slides = document.querySelectorAll(".slide");
